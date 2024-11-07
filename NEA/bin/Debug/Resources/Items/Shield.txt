@@ -1,0 +1,7 @@
+Shield
+2
+Shield
+1
+punch
+Can block attacks
+SINGLE

@@ -1,0 +1,7 @@
+Loot
+0
+Loot
+0
+punch
+Use this to craft stuff
+SINGLE

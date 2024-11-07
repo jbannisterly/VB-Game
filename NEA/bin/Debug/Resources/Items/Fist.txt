@@ -1,0 +1,7 @@
+No Item
+-1
+NoItem
+0
+punch
+Dequip all items
+SINGLE

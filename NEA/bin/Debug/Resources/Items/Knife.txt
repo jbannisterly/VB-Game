@@ -1,0 +1,7 @@
+Knife
+1
+Knife
+24
+punch
+A stabby thing
+SINGLE

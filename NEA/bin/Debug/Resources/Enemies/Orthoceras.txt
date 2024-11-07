@@ -1,0 +1,6 @@
+NAME:Orthoceras
+HEALTH:20
+ATTACK:5
+DROP:loot
+MODEL:Orthoceras
+SKIN:0

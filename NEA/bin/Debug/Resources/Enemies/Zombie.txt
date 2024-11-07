@@ -1,0 +1,6 @@
+NAME:Zombie
+HEALTH:100
+ATTACK:1
+DROP:loot
+MODEL:PlayerModel2
+SKIN:1

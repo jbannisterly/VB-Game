@@ -1,0 +1,26 @@
+325 0 362
+!BEGIN
+!MISSION 1
+!CHECKPOINT
+Hello there
+This lake is very dangerous
+You do not look like a strong swimmer
+There are also many monsters in the lake
+!SPAWN Orthoceras 331 0 373 4
+Oh no there are some over there
+Please kill them for me
+!LABEL CombatCheck
+!END
+!GOTOIF CombatComplete Lake 0
+You have not killed all the monsters yet
+!GOTO CombatCheck
+!LABEL CombatComplete
+Yay you killed the monsters
+Please accept 1 loot as a reward
+!GIVE Loot 1 1
+!NEWTASK Lake
+!END
+!LABEL Finished
+Thank you for your help
+!END
+!GOTO Finished

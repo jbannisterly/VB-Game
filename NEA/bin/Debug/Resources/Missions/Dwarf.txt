@@ -1,0 +1,6 @@
+Dwarf
+Dwarf Mission
+Kill the Zombie:KILL 1 Zombie
+Craft a sword:OBTAIN 1 Sword
+Kill more Zombies:KILL 3 Zombie
+Kill additional Zombies:KILL 10 Zombie

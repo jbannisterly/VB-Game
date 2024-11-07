@@ -1,0 +1,8 @@
+Move Forward
+Move Back
+Move Left
+Move Right
+Jump
+Sprint
+Dodge
+Pause

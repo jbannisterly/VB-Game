@@ -1,0 +1,71 @@
+273 0 370
+!BEGIN
+!MISSION 0
+!CHECKPOINT
+Hello there
+I am a dwarf
+!SPAWN Zombie 273 0 372
+Oh no there is a zombie
+Please kill the zombie for me
+!LABEL ZombieCheck
+!END
+!GOTOIF ZombieKilled Dwarf 0
+You have not killed the zombie yet
+!GOTO ZombieCheck
+!LABEL ZombieKilled
+Yay you killed the zombie
+You are a good warrior
+A good warrior will need weapons
+!GIVE Shield 1 1
+I have a spare shield
+Unfortunately I cannot remember how to make swords
+You will have to make your own
+!GIVE Loot 10 1
+I will give you loot
+I think you need loot to make swords
+!NEWTASK Dwarf
+!CHECKPOINT
+!LABEL CraftCheck
+!END
+!GOTOIF CraftComplete Dwarf 1
+You have not crafted a sword yet
+!GOTO CraftCheck
+!LABEL CraftComplete
+That is good craftsmanship
+Let me use my dwarf skills to upgrade your sword
+!TAKE Sword 1
+!GIVE Sword 1 2
+There you go
+!NEWTASK Dwarf
+!CHECKPOINT
+!SPAWN Zombie 273 0 372 3
+Oh no there are 3 more zombies
+Please deal with them
+!LABEL ZombieCheck2
+!END
+!GOTOIF ZombieKilled2 Dwarf 2
+You have not killed all the zombies yet
+!GOTO ZombieCheck2
+!LABEL ZombieKilled2
+Yay you killed all the zombies
+I think I can make your sword better
+!TAKE Sword 1
+!GIVE Sword 1 3
+!NEWTASK Dwarf
+!CHECKPOINT
+!SPAWN Zombie 273 0 372 10
+Oh no there are more zombies
+!LABEL ZombieCheck3
+!END
+!GOTOIF ZombieKilled3 Dwarf 3
+You have not killed all the zombies yet
+!GOTO ZombieCheck3
+!LABEL ZombieKilled3
+As a token of my appreciation I will give you loot
+!GIVE Loot 30 1
+!NEWTASK Dwarf
+!END
+!LABEL Finished
+Thank you for your help
+!END
+!GOTO Finished

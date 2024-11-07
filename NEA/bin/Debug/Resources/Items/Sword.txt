@@ -1,0 +1,7 @@
+Sword
+1
+Sword
+27
+slash,slash2,slash3
+Stabby thing
+SPLASH
